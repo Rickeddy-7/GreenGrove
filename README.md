@@ -13,16 +13,6 @@ Green Grove is a website designed to promote sustainable living and eco-friendly
 - Promote eco-friendly products and services.  
 - Build a community of like-minded individuals passionate about sustainability.  
 
-## Visual Componests:
-**Clour scheme:**
-- #085025
-- #026633
-- #cf9817
-- #6e3b2e
-- #4A2619
-
-**Font**
-- Ubuntu
 
 ## Sitemap  
 **1. Home (index.html)**  
