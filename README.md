@@ -1,10 +1,7 @@
-# Green Grove Website  
-
-## Project Title  
-GreenGrove Organics  
+# GreenGrove Organics  
 ![GreenGrove](images/logo-full.png)
 
-## Overview  
+## Project Overview
 Green Grove is a website designed to promote sustainable living and eco-friendly practices. It provides resources, tips, and information to help users make environmentally conscious decisions in their daily lives.  
 
 ## Website Goals and Objectives  
