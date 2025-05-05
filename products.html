@@ -5,26 +5,28 @@
     <title>Products</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/products.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 
-<body style="font-family: 'Ubuntu', sans-serif; margin: 0; padding: 0; background-color: #026633; color: #4A2619;">
+<body>
     <!-- Header Section -->
     <header>
         <nav>
-            <ul class="nav-list" style="list-style-type: none; display: flex; justify-content: space-between; align-items: center; padding: 5px; background-color: #4A2619;">
+            <ul class="nav-list">
                 <li>
                     <a href="index.html">
-                        <img src="images/logo.png" alt="GreenGrove Logo" style="width: 50px; height: 50px;">
+                        <img src="images/logo.png" alt="GreenGrove Logo">
                     </a>
                 </li>
-                <li style="display: flex; gap: 25px;">
-                    <a href="index.html" style="color: #cf9817; text-decoration: none; font-size: 22px;">Home</a>
-                    <a href="about.html" style="color: #cf9817; text-decoration: none; font-size: 22px;">About Us</a>
-                    <a href="products.html" style="color: #cf9817; text-decoration: none; font-size: 22px;">Products</a>
-                    <a href="blog.html" style="color: #cf9817; text-decoration: none; font-size: 22px;">Blog</a>
-                    <a href="contact.html" style="color: #cf9817; text-decoration: none; font-size: 22px;">Contact</a>
-                    <a href="cart.html" style="color: #cf9817; text-decoration: none; font-size: 22px; margin-right: 20px;">Cart</a>
+                <li id="menu">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="products.html">Products</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="cart.html">Cart</a>
                 </li>
             </ul>
         </nav>
@@ -32,150 +34,150 @@
     
     <!-- Products Section -->
     <section id="products">
-        <h1 style="padding-left: 35px; font-size: 40px;">Explore Our Eco-Friendly Products</h1>
+        <h1>Explore Our Eco-Friendly Products</h1>
         
-        <div class="product-list" style="padding: 0 35px;">
+        <div class="product-list">
             <!-- Fruits Section -->
-            <div class="category" style="margin-bottom: 20px;">
-                <h2 style="color: #cf9817; text-align: left;"><i>Fruits</i></h2>
-                <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Organic Apples</h3>
-                        <p style="margin: 5;">R50 per kg</p>
-                        <img src="images/apples.webp" alt="Organic Apples" style="width: 100%; border-radius: 8px; object-fit: cover;">
+            <div class="category">
+                <h2><i>Fruits</i></h2>
+                <div id="section">
+                    <div class="product-item">
+                        <h3>Organic Apples</h3>
+                        <p>R50 per kg</p>
+                        <img src="images/apples.webp" alt="Organic Apples">
                     </div>
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Fresh Strawberries</h3>
-                        <p style="margin: 5;">R70 per punnet</p>
-                        <img src="images/strawberries.webp" alt="Fresh Strawberries" style="width: 100%; border-radius: 8px; object-fit: cover;">
+                    <div class="product-item">
+                        <h3>Fresh Strawberries</h3>
+                        <p>R70 per punnet</p>
+                        <img src="images/strawberries.webp" alt="Fresh Strawberries">
                     </div>
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Fresh Lemons</h3>
-                        <p style="margin: 5;">R45 per kg</p>
-                        <img src="images/lemons.jpg" alt="Fresh Lemons" style="width: 100%; border-radius: 8px; object-fit: cover;">
+                    <div class="product-item">
+                        <h3>Fresh Lemons</h3>
+                        <p>R45 per kg</p>
+                        <img src="images/lemons.jpg" alt="Fresh Lemons">
                     </div>
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Fresh Bananas</h3>
-                        <p style="margin: 5;">R30 per kg</p>
-                        <img src="images/bananas.jpg" alt="Fresh Bananas" style="width: 100%; border-radius: 8px; object-fit: cover;">
+                    <div class="product-item">
+                        <h3>Fresh Bananas</h3>
+                        <p>R30 per kg</p>
+                        <img src="images/bananas.jpg" alt="Fresh Bananas">
                     </div>
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Fresh Oranges</h3>
-                        <p style="margin: 5;">R40 per kg</p>
-                        <img src="images/oranges.jpg" alt="Fresh Oranges" style="width: 100%; border-radius: 8px; object-fit: cover;">
+                    <div class="product-item">
+                        <h3>Fresh Oranges</h3>
+                        <p>R40 per kg</p>
+                        <img src="images/oranges.jpg" alt="Fresh Oranges">
                     </div>
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Fresh Grapes</h3>
-                        <p style="margin: 5;">R60 per kg</p>
-                        <img src="images/grapes.webp" alt="Fresh Grapes" style="width: 100%; border-radius: 8px; object-fit: cover;">
+                    <div class="product-item">
+                        <h3>Fresh Grapes</h3>
+                        <p>R60 per kg</p>
+                        <img src="images/grapes.webp" alt="Fresh Grapes">
                     </div>
                 </div>
             </div>
 
             <!-- Vegetables Section -->
-            <div class="category" style="margin-bottom: 20px;">
-                <h2 style="color: #cf9817; text-align: left;"><i>Vegetables</i></h2>
-                <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Fresh Carrots</h3>
-                        <p style="margin: 5;">R30 per kg</p>
-                        <img src="images/carrots.jpg" alt="Fresh Carrots" style="width: 100%; border-radius: 8px; object-fit: cover;">
+            <div class="category">
+                <h2><i>Vegetables</i></h2>
+                <div id="section">
+                    <div class="product-item">
+                        <h3>Fresh Carrots</h3>
+                        <p>R30 per kg</p>
+                        <img src="images/carrots.jpg" alt="Fresh Carrots">
                     </div>
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Organic Spinach</h3>
-                        <p style="margin: 5;">R25 per bunch</p>
-                        <img src="images/spinach.jpg" alt="Organic Spinach" style="width: 100%; border-radius: 8px; object-fit: cover;">
+                    <div class="product-item">
+                        <h3>Organic Spinach</h3>
+                        <p>R25 per bunch</p>
+                        <img src="images/spinach.jpg" alt="Organic Spinach">
                     </div>
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Organic Tomatoes</h3>
-                        <p style="margin: 5;">R40 per kg</p>
-                        <img src="images/tomatoes.jpg" alt="Organic Tomatoes" style="width: 100%; border-radius: 8px; object-fit: cover;">
+                    <div class="product-item">
+                        <h3>Organic Tomatoes</h3>
+                        <p>R40 per kg</p>
+                        <img src="images/tomatoes.jpg" alt="Organic Tomatoes">
                     </div>
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Organic Potatoes</h3>
-                        <p style="margin: 5;">R35 per kg</p>
-                        <img src="images/potatoes.webp" alt="Organic Potatoes" style="width: 100%; border-radius: 8px; object-fit: cover;">
+                    <div class="product-item">
+                        <h3>Organic Potatoes</h3>
+                        <p>R35 per kg</p>
+                        <img src="images/potatoes.webp" alt="Organic Potatoes">
                     </div>
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Organic Zucchini</h3>
-                        <p style="margin: 5;">R30 per kg</p>
-                        <img src="images/zucchini.jpg" alt="Organic Zucchini" style="width: 100%; border-radius: 8px; object-fit: cover;">
+                    <div class="product-item">
+                        <h3>Organic Zucchini</h3>
+                        <p>R30 per kg</p>
+                        <img src="images/zucchini.jpg" alt="Organic Zucchini">
                     </div>
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Organic Pumpkin</h3>
-                        <p style="margin: 5;">R25 each</p>
-                        <img src="images/pumpkin.jpg" alt="Organic Pumpkin" style="width: 100%; border-radius: 8px; object-fit: cover;">
+                    <div class="product-item">
+                        <h3>Organic Pumpkin</h3>
+                        <p>R25 each</p>
+                        <img src="images/pumpkin.jpg" alt="Organic Pumpkin">
                     </div>
                 </div>
             </div>
 
             <!-- Dairy Section -->
-            <div class="category" style="margin-bottom: 20px;">
-            <h2 style="color: #cf9817; text-align: left;"><i>Dairy</i></h2>
-                <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Free-Range Eggs</h3>
-                        <p style="margin: 5;">R60 per dozen</p>
-                        <img src="images/eggs.webp" alt="Free-Range Eggs" style="width: 100%; border-radius: 8px; object-fit: cover;">
+            <div class="category">
+            <h2><i>Dairy</i></h2>
+                <div id="section">
+                    <div class="product-item">
+                        <h3>Free-Range Eggs</h3>
+                        <p>R60 per dozen</p>
+                        <img src="images/eggs.webp" alt="Free-Range Eggs">
                     </div>
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Natural Yoghurt</h3>
-                        <p style="margin: 5;">R60 per tub</p>
-                        <img src="images/yoghurt.webp" alt="Natural yoghurt" style="width: 100%; border-radius: 8px; object-fit: cover;">
+                    <div class="product-item">
+                        <h3>Natural Yoghurt</h3>
+                        <p>R60 per tub</p>
+                        <img src="images/yoghurt.webp" alt="Natural yoghurt">
                     </div>
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Almond Milk</h3>
-                        <p style="margin: 5;">R50 per litre</p>
-                        <img src="images/almond-milk.jpg" alt="Almond Milk" style="width: 100%; border-radius: 8px; object-fit: cover;">
+                    <div class="product-item">
+                        <h3>Almond Milk</h3>
+                        <p>R50 per litre</p>
+                        <img src="images/almond-milk.jpg" alt="Almond Milk">
                     </div>
                 </div>
             </div>
 
             <!-- Pantry Section -->
-            <div class="category" style="margin-bottom: 20px;">
-            <h2 style="color: #cf9817; text-align: left;"><i>Pantry</i></h2>
-                <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Raw Honey</h3>
-                        <p style="margin: 5;">R120 per jar</p>
-                        <img src="images/honey.jpeg" alt="Raw Honey" style="width: 100%; border-radius: 8px; object-fit: cover;">
+            <div class="category">
+            <h2><i>Pantry</i></h2>
+                <div id="section">
+                    <div class="product-item">
+                        <h3>Raw Honey</h3>
+                        <p>R120 per jar</p>
+                        <img src="images/honey.jpeg" alt="Raw Honey">
                     </div>
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Wholegrain Bread</h3>
-                        <p style="margin: 5;">R40 per loaf</p>
-                        <img src="images/bread.webp" alt="Wholegrain Bread" style="width: 100%; border-radius: 8px; object-fit: cover;">
+                    <div class="product-item">
+                        <h3>Wholegrain Bread</h3>
+                        <p>R40 per loaf</p>
+                        <img src="images/bread.webp" alt="Wholegrain Bread">
                     </div>
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Natural Peanut Butter</h3>
-                        <p style="margin: 5;">R90 per jar</p>
-                        <img src="images/peanut_butter.webp" alt="Natural Peanut Butter" style="width: 100%; border-radius: 8px; object-fit: cover;">
+                    <div class="product-item">
+                        <h3>Natural Peanut Butter</h3>
+                        <p>R90 per jar</p>
+                        <img src="images/peanut_butter.webp" alt="Natural Peanut Butter">
                     </div>
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Wholegrain Rice</h3>
-                        <p style="margin: 5;">R80 per bag</p>
-                        <img src="images/rice.jpg" alt="Wholegrain Rice" style="width: 100%; border-radius: 8px; object-fit: cover;">
+                    <div class="product-item">
+                        <h3>Wholegrain Rice</h3>
+                        <p>R80 per bag</p>
+                        <img src="images/rice.jpg" alt="Wholegrain Rice">
                     </div>
                 </div>
             </div>
 
             <!-- Herbs Section -->
-            <div class="category" style="margin-bottom: 20px;">
-                <h2 style="color: #cf9817; text-align: left;"><i>Herbs</i></h2>
-                <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Fresh Basil</h3>
-                        <p style="margin: 5;">R20 per bunch</p>
-                        <img src="images/basil.webp" alt="Organic Cucumber" style="width: 100%; border-radius: 8px; object-fit: cover;">
+            <div class="category">
+                <h2><i>Herbs</i></h2>
+                <div id="section">
+                    <div class="product-item">
+                        <h3>Fresh Basil</h3>
+                        <p>R20 per bunch</p>
+                        <img src="images/basil.webp" alt="Organic Cucumber">
                     </div>
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Fresh Mint</h3>
-                        <p style="margin: 5;">R15 per bunch</p>
-                        <img src="images/mint.jpg" alt="Fresh Mint" style="width: 100%; border-radius: 8px; object-fit: cover;">
+                    <div class="product-item">
+                        <h3>Fresh Mint</h3>
+                        <p>R15 per bunch</p>
+                        <img src="images/mint.jpg" alt="Fresh Mint">
                     </div>
-                    <div class="product-item" style="background-color: #cf9817; border-radius: 8px; text-align: left; width: 200px; padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                        <h3 style="margin: 0;">Fresh Thyme</h3>
-                        <p style="margin: 5;">R20 per bunch</p>
-                        <img src="images/thyme.jpg" alt="Fresh Thyme" style="width: 100%; border-radius: 8px; object-fit: cover;">
+                    <div class="product-item">
+                        <h3>Fresh Thyme</h3>
+                        <p>R20 per bunch</p>
+                        <img src="images/thyme.jpg" alt="Fresh Thyme">
                     </div>
                 </div>
             </div>
@@ -183,8 +185,8 @@
     </section>
 
     <!-- Footer Section -->
-    <footer style="bottom: 0; width: 100%; background-color: #4A2619; color: #cf9817; text-align: center;">
-        <p style="margin: 5;">&copy; 2025 GreenGrove Organics - All rights reserved</p>
+    <footer>
+        <p>&copy; 2025 GreenGrove Organics - All rights reserved</p>
     </footer>
 </body>
 </html>

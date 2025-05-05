@@ -1,0 +1,48 @@
+#home {
+    padding: 0 30px;
+}
+
+#home h1 {
+    font-size: 40px;
+}
+
+#home p {
+    color: #cf9817;
+}
+
+#home a {
+    background-color: #cf9817;
+    color: #4A2619;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#product-collage {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+}
+
+#product-collage div {
+    text-align: center;
+    width: 200px;
+}
+
+#product-collage img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#product-collage h3 {
+    color: #4A2619;
+    font-size: 30px;
+}
+
+#product-collage p {
+    color: #cf9817;
+}

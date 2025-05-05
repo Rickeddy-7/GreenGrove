@@ -1,0 +1,49 @@
+body {
+    background-image: url(../images/Fresh-Produce-Bag.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-list li {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-list a {
+    color: #cf9817;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.nav-list a:last-child {
+    margin-right: 20px;
+}
+
+h1 {
+    margin-left: 20px;
+    color: #4A2619;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+main div {
+    background-color: #cf9817;
+    color: #4A2619;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+main div h2 {
+    margin-top: 0;
+}
+
+main div a {
+    color: #085025;
+    text-decoration: underline;
+}
+
