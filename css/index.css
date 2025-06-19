@@ -37,6 +37,10 @@
     border-radius: 50%;
     object-fit: cover;
 }
+#product-collage div:hover {
+    transform: scale(1.1);
+    transition: transform 0.4s;
+}
 
 #product-collage h3 {
     color: #4A2619;
@@ -45,4 +49,13 @@
 
 #product-collage p {
     color: #cf9817;
+}
+
+#shop-button {
+    transition: background-color 0.3s, color 0.3s, letter-spacing 0.3s;
+}
+#shop-button:hover {
+    background-color: #4A2619;
+    color: #cf9817;
+    letter-spacing: .1em;
 }
