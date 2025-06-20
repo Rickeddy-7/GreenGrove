@@ -58,3 +58,77 @@ header img {
 footer {
     position: relative;
 }
+
+.product-item .image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.product-item .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: filter 0.3s ease;
+}
+
+.product-item .buy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.product-item .image-container:hover img {
+    filter: blur(2px);
+}
+
+.product-item .image-container:hover .buy {
+    opacity: 1;
+}
+
+.increase, .decrease {
+    border: none;
+    background-color: transparent;
+    color: #3b1f14;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+}
+.increase:hover, .decrease:hover {
+    color: #085025;
+}
+
+.buy span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3b1f14;
+}
+
+.add-to-cart {
+    background-color:#cf9817;
+    color:#4A2619;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s, color 0.3s, letter-spacing 0.3s;
+}
+.add-to-cart:hover {
+    background-color: #4A2619;
+    color: #cf9817;
+    letter-spacing: 0.1em;
+}

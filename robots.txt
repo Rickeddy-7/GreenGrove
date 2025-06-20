@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /css/
+Disallow: /javascript/
+Disallow: /documents/
+Disallow: /images/
+
+Allow: /index.html
+Allow: /about.html
+Allow: /blog.html
+Allow: /contact.html
+Allow: /enquiry.html
+Allow: /cart.html
+Allow: /products.html
+
+Sitemap: https://yourdomain.com/sitemap.xml

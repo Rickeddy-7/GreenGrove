@@ -47,3 +47,60 @@ main div a {
     text-decoration: underline;
 }
 
+#articles a:hover{
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: auto 100vh;
+        background-position: center;
+    }
+
+    .nav-list li {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .nav-list a {
+        font-size: 18px;
+    }
+
+    h1 {
+        margin-left: 10px;
+        font-size: 1.5em;
+    }
+
+    main {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0 10px;
+    }
+
+    main div {
+        padding: 10px;
+        font-size: 1em;
+    }
+    footer {
+        font-size: 15px;
+        padding: 12px 5px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+        margin-left: 5px;
+    }
+
+    .nav-list a {
+        font-size: 16px;
+    }
+
+    main div {
+        padding: 8px;
+        font-size: 0.95em;
+    }
+}
